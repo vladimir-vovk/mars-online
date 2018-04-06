@@ -10,13 +10,13 @@ Work in progress! Stay tuned!
 
 ## View app with Expo client
 
-1. Install Expo client on you device from App Store or Play Market
+1. Install the *Expo client* on you device from *App Store* or *Play Market*
 2. Open this url:  https://expo.io/@vladimir_vovk/mars-online
 3. Scan QR code or send yourself a link
 
-## Run app from your local machine
+## Run app on your local machine
 
-1. Install Expo XDE (https://expo.io)
+1. Install the *Expo XDE* from https://expo.io
 2. Clone this repo
-3. Open project with Expo XDE
-4. Run app with your device or emulator
+3. Open project with the *Expo XDE*
+4. Run app with your Device or Emulator/Simulator
