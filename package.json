@@ -11,12 +11,19 @@
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0"
   },
+  "scripts": {
+    "start": "react-native-scripts start",
+    "postinstall": "rndebugger-open"
+  },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.10.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.7.0"
+    "eslint-plugin-react": "^7.7.0",
+    "react-native-debugger-open": "^0.3.17",
+    "react-native-scripts": "^1.13.1",
+    "redux-devtools-extension": "^2.13.2"
   }
 }
