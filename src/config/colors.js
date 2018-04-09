@@ -7,4 +7,5 @@ export default {
   buttonLight: '#E5D6B2',
   red: '#BA5A31',
   blue: '#1E91D6',
+  background: '#EEEEF4',
 };

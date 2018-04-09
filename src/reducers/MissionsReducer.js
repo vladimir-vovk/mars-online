@@ -1,6 +1,7 @@
 import { MISSIONS_UPDATE } from '../actions/types';
 
 const INITIAL_STATE = {
+  refreshing: false,
   order: ['curiosity', 'opportunity', 'spirit'],
   curiosity: {
     name: 'Curiosity',
@@ -29,7 +30,6 @@ const INITIAL_STATE = {
     maxDate: '2010-03-21',
     totalPhotos: 124550,
   },
-  refreshing: false,
 };
 
 export default (state = INITIAL_STATE, action) => {

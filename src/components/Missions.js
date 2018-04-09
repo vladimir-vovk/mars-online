@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { View, ScrollView, RefreshControl, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import { connect } from 'react-redux';
-import { missionsFetch, missionsUpdate } from '../actions';
+import { missionsFetch, missionsUpdate, galleryLoad } from '../actions';
 import { Card } from './common';
 import images from '../../assets/images';
 import { loadState } from '../utils';
@@ -15,7 +15,8 @@ class Missions extends Component {
   state = { isReady: false };
 
   onMissionPress(missionKey) {
-    this.props.navigation.navigate('Gallery', { missionKey });
+    const title = this.props[missionKey].name;
+    this.props.navigation.navigate('Gallery', { missionKey, title });
   }
 
   renderMission(missionKey) {
@@ -83,4 +84,4 @@ const mapStateToProps = (state) => {
   return { ...missions };
 };
 
-export default connect(mapStateToProps, { missionsFetch, missionsUpdate })(Missions);
+export default connect(mapStateToProps, { missionsFetch, missionsUpdate, galleryLoad })(Missions);

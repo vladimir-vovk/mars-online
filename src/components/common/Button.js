@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import { View, Text, TouchableOpacity, ViewPropTypes } from 'react-native';
+import { Text, TouchableOpacity, ViewPropTypes } from 'react-native';
 import { LinearGradient } from 'expo';
 import colors from '../../config/colors';
 
