@@ -7,6 +7,8 @@ Humanity can’t stop dreaming about exploring endless space and colonizing new 
 Work in progress! Stay tuned!
 
 ![screen 1](./screen1.jpg)
+![screen 2](./screen2.jpg)
+![screen 3](./screen3.jpg)
 
 ## View app with Expo client
 
@@ -18,5 +20,4 @@ Work in progress! Stay tuned!
 
 1. Install the *Expo XDE* from https://expo.io
 2. Clone this repo
-3. Open project with the *Expo XDE*
-4. Run app with your Device or Emulator/Simulator
+3. Open project with the *Expo XDE* or open project folder in terminal and type: `yarn && yarn start`
